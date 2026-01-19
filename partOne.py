@@ -1,8 +1,9 @@
 def main():
     slow = input("input slow down comand")
-    print("slow down comand") myFunction(slow)
+    print(myFunction(slow))
+
 
 def myFunction(text):
-  #Your code goes here.
+ text2 = text.replace(" ","...")
 
 main()
