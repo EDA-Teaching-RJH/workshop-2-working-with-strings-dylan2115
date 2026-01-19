@@ -4,6 +4,6 @@ def main():
 
 
 def myFunction(text):
- text2 = text.replace(" ","...")
-
+    text2 = text.replace(" ","...")
+    return text2
 main()
